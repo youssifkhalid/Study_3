@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", () => {
 })
 
 // YouTube API Configuration
-const YOUTUBE_API_KEY = "AIzaSyA7TYBY-o0aIhZbZuzn_WJAjNht0F4YGH0"
+const API_KEY = import.meta.env.VITE_YOUTUBE_API_KEY;
 const YOUTUBE_API_BASE_URL = "https://www.googleapis.com/youtube/v3"
 
 // Teachers Data with Real Playlist IDs
